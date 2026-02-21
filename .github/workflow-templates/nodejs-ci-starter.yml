@@ -2,7 +2,7 @@ name: Organization NodeJS CI
 on:
   push:
     branches:
-      - default-branch  # Replace with your actual default branch, e.g., main or master
+      - main
 jobs:
   build:
     runs-on: ubuntu-latest
